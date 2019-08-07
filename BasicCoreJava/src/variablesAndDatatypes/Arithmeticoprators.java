@@ -9,6 +9,8 @@ public class Arithmeticoprators {
 		int a=20;
 		int b=20;
 		int c=30;
+		
+		//Arithmetic operators
 		/*
 	//operators
 		System.out.println(a+b);
