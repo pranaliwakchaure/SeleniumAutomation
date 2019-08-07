@@ -17,7 +17,11 @@ public class Array1 {
 		std[7]="Anu";
 		std[8]="Vinod";
 		
-		System.out.println(std[1]);
+		for (int i=0; i>=8; i++)
+		{
+		
+		System.out.println(std[i]);
 	}
 
+}
 }
