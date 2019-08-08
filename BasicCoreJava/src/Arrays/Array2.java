@@ -23,7 +23,8 @@ public class Array2 {
 				{
 					for(int c=0; c<2; c++)
 					{
-		             System.out.println(str[r][c]);
+		             System.out.println(str[r][c] + " ");
+		             System.out.println(+);
 					}
 				}
 
