@@ -3,10 +3,12 @@ package Functions;
 public class Users {
 	public static void main(String[] args)
 	{
+		
+		//instance valiable
 		Car maruti=new Car();
 		maruti.colour="White";
 		maruti.model="Swift";
-		maruti.wheels=4;
+		maruti.wheels=6;
 		
 		maruti.braking();
 		
