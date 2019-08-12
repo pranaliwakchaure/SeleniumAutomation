@@ -15,7 +15,10 @@ public class PranaliUsers {
 		SmartPhone sp=new SmartPhone();
 		sp.internet();
 		sp.texting();
+		
 		sp.calling();
+		
+		
 		
 
 	}
