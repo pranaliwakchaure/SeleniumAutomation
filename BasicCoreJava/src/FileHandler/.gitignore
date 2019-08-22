@@ -1,2 +1,5 @@
 /PropertiesFile.class
 /ReadExcel.class
+/WriteInExcel.class
+/Xls_Reader.class
+/TestXls_Reader.class
