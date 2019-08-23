@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="524" started-at="2019-08-23T16:11:06Z" finished-at="2019-08-23T16:11:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="524" started-at="2019-08-23T16:11:06Z" finished-at="2019-08-23T16:11:06Z">
+      <class name="basicAnotation.TestNGclass1">
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:basicAnotation.TestNGclass1@23ceabc1]" name="loginTestCase" duration-ms="16" started-at="2019-08-23T21:41:06Z" data-provider="getdata2" finished-at="2019-08-23T21:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pranali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:basicAnotation.TestNGclass1@23ceabc1]" name="loginTestCase" duration-ms="1" started-at="2019-08-23T21:41:06Z" data-provider="getdata2" finished-at="2019-08-23T21:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:basicAnotation.TestNGclass1@23ceabc1]" name="loginTestCase" duration-ms="0" started-at="2019-08-23T21:41:06Z" data-provider="getdata2" finished-at="2019-08-23T21:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:basicAnotation.TestNGclass1@23ceabc1]" name="loginTestCase" duration-ms="0" started-at="2019-08-23T21:41:06Z" data-provider="getdata2" finished-at="2019-08-23T21:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:basicAnotation.TestNGclass1@23ceabc1]" name="loginTestCase" duration-ms="16" started-at="2019-08-23T21:41:06Z" data-provider="getdata2" finished-at="2019-08-23T21:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:basicAnotation.TestNGclass1@23ceabc1]" name="loginTestCase" duration-ms="15" started-at="2019-08-23T21:41:06Z" data-provider="getdata2" finished-at="2019-08-23T21:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:basicAnotation.TestNGclass1@23ceabc1]" name="loginTestCase" duration-ms="0" started-at="2019-08-23T21:41:06Z" data-provider="getdata2" finished-at="2019-08-23T21:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:basicAnotation.TestNGclass1@23ceabc1]" name="loginTestCase" duration-ms="0" started-at="2019-08-23T21:41:06Z" data-provider="getdata2" finished-at="2019-08-23T21:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:basicAnotation.TestNGclass1@23ceabc1]" name="loginTestCase" duration-ms="15" started-at="2019-08-23T21:41:06Z" data-provider="getdata2" finished-at="2019-08-23T21:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:basicAnotation.TestNGclass1@23ceabc1]" name="loginTestCase" duration-ms="0" started-at="2019-08-23T21:41:06Z" data-provider="getdata2" finished-at="2019-08-23T21:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:basicAnotation.TestNGclass1@23ceabc1]" name="loginTestCase" duration-ms="0" started-at="2019-08-23T21:41:06Z" data-provider="getdata2" finished-at="2019-08-23T21:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+      </class> <!-- basicAnotation.TestNGclass1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
