@@ -5,7 +5,11 @@
   <test name="SFDC">
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="BasicAnnotations2.TestClass2"/>
+      <class name="BasicAnnotations2.TestClass2">
+      <methods>
+      <exclude name="test2"/>
+      </methods>
+      </class>
       <class name="BasicAnnotations2.TestClass3"/>
     </classes>
   </test> <!-- Test -->
