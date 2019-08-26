@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="SFDC">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="BasicAnnotations2.TestClass2"/>
+      <class name="BasicAnnotations2.TestClass3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="CAS">
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="BasicAnnotations2.TestClass4"/>
+      <class name="BasicAnnotations2.TestClass5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
