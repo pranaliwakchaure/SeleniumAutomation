@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="178" started-at="2019-08-26T15:37:35Z" finished-at="2019-08-26T15:37:35Z">
+  <suite name="Suite" duration-ms="156" started-at="2019-08-28T14:22:36Z" finished-at="2019-08-28T14:22:36Z">
     <groups>
     </groups>
-    <test name="SFDC" duration-ms="79" started-at="2019-08-26T15:37:35Z" finished-at="2019-08-26T15:37:35Z">
+    <test name="SFDC" duration-ms="63" started-at="2019-08-28T14:22:36Z" finished-at="2019-08-28T14:22:36Z">
       <class name="BasicAnnotations2.TestClass3">
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="test1" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="test1" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="aftereMethod" is-config="true" duration-ms="16" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereMethod -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="test2" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="test2" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="aftereMethod" is-config="true" duration-ms="16" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="afterclas()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="afterclas" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclas -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="test3" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="test3" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="afterclas()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="afterclas" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclas -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass3@58651fd0]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereMethod -->
       </class> <!-- BasicAnnotations2.TestClass3 -->
       <class name="BasicAnnotations2.TestClass2">
-        <test-method status="PASS" signature="masterSFDC(java.lang.String)[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="masterSFDC" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="masterSFDC(java.lang.String)[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="masterSFDC" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <params>
             <param index="0">
               <value>
@@ -64,113 +64,101 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSFDC -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="test1" duration-ms="16" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="test1" duration-ms="16" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="test2" duration-ms="15" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="afterclas()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="afterclas" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclas -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="test3" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="test3" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="afterclas()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="afterclas" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        </test-method> <!-- afterclas -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:BasicAnnotations2.TestClass2@735b5592]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- BasicAnnotations2.TestClass2 -->
     </test> <!-- SFDC -->
-    <test name="CAS" duration-ms="53" started-at="2019-08-26T15:37:35Z" finished-at="2019-08-26T15:37:35Z">
+    <test name="CAS" duration-ms="15" started-at="2019-08-28T14:22:36Z" finished-at="2019-08-28T14:22:36Z">
       <class name="BasicAnnotations2.TestClass5">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="test2" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="test3" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="test1" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="test1" duration-ms="15" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="aftereMethod" is-config="true" duration-ms="3" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="afterclas()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="afterclas" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="test3" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="afterclas()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="afterclas" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclas -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="test2" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:BasicAnnotations2.TestClass5@4b9e13df]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- BasicAnnotations2.TestClass5 -->
       <class name="BasicAnnotations2.TestClass4">
-        <test-method status="PASS" signature="masterMaintainance(java.lang.String)[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="masterMaintainance" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="masterMaintainance(java.lang.String)[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="masterMaintainance" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <params>
             <param index="0">
               <value>
@@ -181,51 +169,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterMaintainance -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="test3" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="test3" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="test2" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="test2" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="test1" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="test1" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="afterclas()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="afterclas" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="afterclas()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="afterclas" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclas -->
-        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftereMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="afterTest" is-config="true" duration-ms="3" started-at="2019-08-26T21:07:35Z" finished-at="2019-08-26T21:07:35Z">
+        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aftereMethod()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="aftereMethod" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:BasicAnnotations2.TestClass4@2b98378d]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-08-28T19:52:36Z" finished-at="2019-08-28T19:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
