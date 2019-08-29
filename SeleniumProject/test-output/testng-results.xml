@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66594" started-at="2019-08-28T15:58:08Z" finished-at="2019-08-28T15:59:15Z">
+  <suite name="Default suite" duration-ms="99326" started-at="2019-08-29T15:49:51Z" finished-at="2019-08-29T15:51:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="66594" started-at="2019-08-28T15:58:08Z" finished-at="2019-08-28T15:59:15Z">
-      <class name="BasicSelenium.FirstSeleniumClass">
-        <test-method status="PASS" signature="login()[pri:0, instance:BasicSelenium.FirstSeleniumClass@5034c75a]" name="login" duration-ms="66574" started-at="2019-08-28T21:28:08Z" finished-at="2019-08-28T21:29:15Z">
+    <test name="Default test" duration-ms="99326" started-at="2019-08-29T15:49:51Z" finished-at="2019-08-29T15:51:30Z">
+      <class name="BasicSelenium.TestClass2">
+        <test-method status="PASS" signature="bookAflight()[pri:0, instance:BasicSelenium.TestClass2@5034c75a]" name="bookAflight" duration-ms="99311" started-at="2019-08-29T21:19:51Z" finished-at="2019-08-29T21:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- BasicSelenium.FirstSeleniumClass -->
+        </test-method> <!-- bookAflight -->
+      </class> <!-- BasicSelenium.TestClass2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
