@@ -2,6 +2,7 @@ package BasicSelenium;
 
 import java.util.List;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -50,7 +51,7 @@ public void bookAflight() throws InterruptedException
 		//button
 		dr.findElement(By.name("findFlights")).click();
 		
-		//webtable
+		//webtable 1
 		WebElement tbl=dr.findElement(By.xpath("//table[1][@cellpadding='2'][@cellspacing='1'][1]/tbody"));
 		//return list
 		List<WebElement> rows=tbl.findElements(By.tagName("tr"));
@@ -63,7 +64,58 @@ public void bookAflight() throws InterruptedException
 			{
 				System.out.println(c.getText());
 			}
+			
 		}
+        
+		//webtable 2
+				WebElement tbl2=dr.findElement(By.xpath("//table[2][@cellpadding='2'][@cellspacing='1'][1]/tbody"));
+				//return list
+				List<WebElement> rows1=tbl2.findElements(By.tagName("tr"));
+		 
+				//enhance for loop to read List element
+				for(WebElement r:rows1)
+				{
+					List<WebElement> cols=r.findElements(By.tagName("td"));
+					for(WebElement c:cols)
+					{
+						System.out.println(c.getText());
+					}
+
+
 }
+				dr.findElement(By.name("reserveFlights")).click();
+				
+				//checkbox
+				dr.findElement(By.name("ticketLess")).click();
+				System.out.println(dr.findElement(By.name("ticketLess")).isSelected());
+				
+				
+				WebElement country=dr.findElement(By.name("delCountry"));
+				
+				Select Contsel=new Select(country);
+				
+				Contsel.selectByIndex(3);
+				
+				//alert handling
+				Alert alt=dr.switchTo().alert();
+				
+				System.out.println(alt.getText());
+				//ok
+				//alt.accept();
+				
+				alt.dismiss();
+				
+
+				//button
+				dr.findElement(By.name("buyFlights")).click();
+				
+				//text Area
+				
+			
+				
+				System.out.println(dr.findElement(By.xpath("//font[@size='+1']")).getText());
+				
+				dr.close();
 	
+}	
 }
