@@ -1,59 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="94" started-at="2019-08-30T15:38:43Z" finished-at="2019-08-30T15:38:43Z">
+  <suite name="Suite" duration-ms="361369" started-at="2019-09-03T14:52:27Z" finished-at="2019-09-03T14:58:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="94" started-at="2019-08-30T15:38:43Z" finished-at="2019-08-30T15:38:43Z">
-      <class name="BasicSelenium.TestClass3">
-        <test-method status="FAIL" signature="test1()[pri:0, instance:BasicSelenium.TestClass3@5034c75a]" name="test1" duration-ms="78" started-at="2019-08-30T21:08:43Z" finished-at="2019-08-30T21:08:43Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at BasicSelenium.TestClass3.test1(TestClass3.java:15)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+    <test name="Test" duration-ms="361369" started-at="2019-09-03T14:52:27Z" finished-at="2019-09-03T14:58:28Z">
+      <class name="Assignment_Practice.Psngr1_round">
+        <test-method status="PASS" signature="bookAflight()[pri:0, instance:Assignment_Practice.Psngr1_round@7f9a81e8]" name="bookAflight" duration-ms="139315" started-at="2019-09-03T20:22:27Z" finished-at="2019-09-03T20:24:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- BasicSelenium.TestClass3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- bookAflight -->
+      </class> <!-- Assignment_Practice.Psngr1_round -->
+      <class name="Assignment_Practice.Psngr2_oneway">
+        <test-method status="PASS" signature="bookAflight()[pri:0, instance:Assignment_Practice.Psngr2_oneway@4520ebad]" name="bookAflight" duration-ms="51709" started-at="2019-09-03T20:27:37Z" finished-at="2019-09-03T20:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAflight -->
+      </class> <!-- Assignment_Practice.Psngr2_oneway -->
+      <class name="Assignment_Practice.Psngr4_round">
+        <test-method status="PASS" signature="bookAflight()[pri:0, instance:Assignment_Practice.Psngr4_round@735b5592]" name="bookAflight" duration-ms="76133" started-at="2019-09-03T20:24:46Z" finished-at="2019-09-03T20:26:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAflight -->
+      </class> <!-- Assignment_Practice.Psngr4_round -->
+      <class name="Assignment_Practice.Psngr1_oneway">
+        <test-method status="PASS" signature="bookAflight()[pri:0, instance:Assignment_Practice.Psngr1_oneway@58651fd0]" name="bookAflight" duration-ms="94180" started-at="2019-09-03T20:26:02Z" finished-at="2019-09-03T20:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAflight -->
+      </class> <!-- Assignment_Practice.Psngr1_oneway -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

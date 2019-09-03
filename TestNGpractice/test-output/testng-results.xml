@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="329" started-at="2019-08-26T14:09:43Z" finished-at="2019-08-26T14:09:43Z">
+  <suite name="Default suite" duration-ms="465" started-at="2019-09-02T17:20:23Z" finished-at="2019-09-02T17:20:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="329" started-at="2019-08-26T14:09:43Z" finished-at="2019-08-26T14:09:43Z">
+    <test name="Default test" duration-ms="465" started-at="2019-09-02T17:20:23Z" finished-at="2019-09-02T17:20:24Z">
       <class name="Anotation123.Class1">
-        <test-method status="FAIL" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:Anotation123.Class1@548b7f67]" name="loginTestCase" duration-ms="310" started-at="2019-08-26T19:39:43Z" data-provider="getdata2" finished-at="2019-08-26T19:39:43Z">
+        <test-method status="FAIL" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:Anotation123.Class1@548b7f67]" name="loginTestCase" duration-ms="447" started-at="2019-09-02T22:50:23Z" data-provider="getdata2" finished-at="2019-09-02T22:50:24Z">
           <exception class="org.testng.internal.reflect.MethodMatcherException">
             <message>
               <![CDATA[
 Data provider mismatch
 Method: loginTestCase([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String)Pranali,(java.lang.String)Sachin,(java.lang.String)Rohit]]]>
+Arguments: [(java.lang.String)Username,(java.lang.String)Password,(java.lang.String)Created]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
 Data provider mismatch
 Method: loginTestCase([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String)Pranali,(java.lang.String)Sachin,(java.lang.String)Rohit]
+Arguments: [(java.lang.String)Username,(java.lang.String)Password,(java.lang.String)Created]
 	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:52)
 	at org.testng.internal.Invoker.injectParameters(Invoker.java:1238)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
