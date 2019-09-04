@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="361369" started-at="2019-09-03T14:52:27Z" finished-at="2019-09-03T14:58:28Z">
+  <suite name="Default suite" duration-ms="9130" started-at="2019-09-04T15:58:34Z" finished-at="2019-09-04T15:58:43Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="361369" started-at="2019-09-03T14:52:27Z" finished-at="2019-09-03T14:58:28Z">
-      <class name="Assignment_Practice.Psngr1_round">
-        <test-method status="PASS" signature="bookAflight()[pri:0, instance:Assignment_Practice.Psngr1_round@7f9a81e8]" name="bookAflight" duration-ms="139315" started-at="2019-09-03T20:22:27Z" finished-at="2019-09-03T20:24:46Z">
+    <test name="Default test" duration-ms="9130" started-at="2019-09-04T15:58:34Z" finished-at="2019-09-04T15:58:43Z">
+      <class name="BasicSelenium.Flipkart1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:BasicSelenium.Flipkart1@9629756]" name="test1" duration-ms="9111" started-at="2019-09-04T21:28:34Z" finished-at="2019-09-04T21:28:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookAflight -->
-      </class> <!-- Assignment_Practice.Psngr1_round -->
-      <class name="Assignment_Practice.Psngr2_oneway">
-        <test-method status="PASS" signature="bookAflight()[pri:0, instance:Assignment_Practice.Psngr2_oneway@4520ebad]" name="bookAflight" duration-ms="51709" started-at="2019-09-03T20:27:37Z" finished-at="2019-09-03T20:28:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookAflight -->
-      </class> <!-- Assignment_Practice.Psngr2_oneway -->
-      <class name="Assignment_Practice.Psngr4_round">
-        <test-method status="PASS" signature="bookAflight()[pri:0, instance:Assignment_Practice.Psngr4_round@735b5592]" name="bookAflight" duration-ms="76133" started-at="2019-09-03T20:24:46Z" finished-at="2019-09-03T20:26:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookAflight -->
-      </class> <!-- Assignment_Practice.Psngr4_round -->
-      <class name="Assignment_Practice.Psngr1_oneway">
-        <test-method status="PASS" signature="bookAflight()[pri:0, instance:Assignment_Practice.Psngr1_oneway@58651fd0]" name="bookAflight" duration-ms="94180" started-at="2019-09-03T20:26:02Z" finished-at="2019-09-03T20:27:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookAflight -->
-      </class> <!-- Assignment_Practice.Psngr1_oneway -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test1 -->
+      </class> <!-- BasicSelenium.Flipkart1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
