@@ -3,7 +3,9 @@ package BasicSelenium;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -13,9 +15,9 @@ public class Firstseleniumcls
 	int colnum=3;
 	
     @Test(dataProvider="getData")
-	public void login(String username, String password) throws IOException 
+	public void login(String userName, String password) throws IOException, InterruptedException 
 	{
-		 System.out.println(username+" "+password);  
+		 System.out.println(userName+" "+password);  
     	
 		 System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe");
 			//
@@ -25,10 +27,70 @@ public class Firstseleniumcls
 			
 			dr.get("http://newtours.demoaut.com/");
 			
-			dr.findElement(By.name("userName")).sendKeys(username);
-			dr.findElement(By.name("password")).sendKeys(password);
-			dr.findElement(By.name("login")).click();
-			dr.close();
+		/*
+		 * dr.findElement(By.name("userName")).sendKeys(userName);
+		 * dr.findElement(By.name("password")).sendKeys(password);
+		 * dr.findElement(By.name("login")).click(); dr.close();
+		 */
+			
+			
+			
+			dr.findElement(By.linkText("REGISTER")).click();
+			Thread.sleep(2000);
+			dr.findElement(By.name("firstName")).sendKeys("Pranali");
+			Thread.sleep(2000);
+			dr.findElement(By.name("lastName")).sendKeys("Wakchaure");
+			Thread.sleep(2000);
+			dr.findElement(By.name("phone")).sendKeys("8888267589");
+			Thread.sleep(2000);
+			dr.findElement(By.name("userName")).sendKeys("abc@gmail.com");
+			Thread.sleep(2000);
+			dr.findElement(By.name("address1")).sendKeys("Dighi");
+			Thread.sleep(2000);
+			dr.findElement(By.name("city")).sendKeys("Pune");
+			Thread.sleep(2000);
+			dr.findElement(By.name("state")).sendKeys("Maharastra");
+			Thread.sleep(2000);
+			dr.findElement(By.name("postalCode")).sendKeys("422601");
+			Thread.sleep(2000);
+		
+			WebElement ele=dr.findElement(By.name("country"));
+			
+			Select sel=new Select(ele);
+			
+			sel.selectByIndex(2);
+			
+			Thread.sleep(2000);
+			
+			sel.selectByValue("92");
+			
+			Thread.sleep(2000);
+			dr.findElement(By.name("email")).sendKeys(userName);
+			
+			Thread.sleep(2000);
+			
+           dr.findElement(By.name("password")).sendKeys(password);
+			
+			Thread.sleep(2000);
+			
+           dr.findElement(By.name("confirmPassword")).sendKeys(password);
+			
+			Thread.sleep(2000);
+			
+			 dr.findElement(By.name("register")).click();
+			 
+			 dr.findElement(By.linkText("sign-in")).click();
+				Thread.sleep(2000);
+				
+				dr.findElement(By.name("userName")).sendKeys(userName);
+				dr.findElement(By.name("password")).sendKeys(password);
+				
+				//button
+				dr.findElement(By.name("login")).click();
+			
+
+			
+			
 			
 			String filepath="E:\\SeleniumAutomation\\FilePractice\\src\\BasicSelenium\\TestData.xls";
 			
