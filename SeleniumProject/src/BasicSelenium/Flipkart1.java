@@ -1,5 +1,6 @@
 package BasicSelenium;
 
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -20,7 +21,7 @@ public class Flipkart1
 			
 			dr.manage().window().maximize();
 			//Implicit wait
-			//dr.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			dr.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			
 			dr.get("https://www.flipkart.com/");
 			
@@ -37,6 +38,22 @@ public class Flipkart1
 			wait.until(ExpectedConditions.visibilityOf(dr.findElement(By.xpath("//a[text()='Shirts']"))));
 			
 			dr.findElement(By.xpath("//a[text()='Shirts']")).click();
+			
+			//next window
+			String parent=dr.getWindowHandle();
+			
+			wait.until(ExpectedConditions.visibilityOf(dr.findElement(By.xpath("//img[@class='_3togXc']")))).click();;
+			
+			//returns
+			Set<String> wins=dr.getWindowHandles();
+			
+			for(String w:wins)
+			{
+				if(!w.equals(parent))
+				dr.switchTo().window(w);
+			}
+			
+			dr.findElement(By.xpath("//input[@placeholder='Enter delivery pincode']")).sendKeys("422015");
 			
 	        //dr.close();
 	}
