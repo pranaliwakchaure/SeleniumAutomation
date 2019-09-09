@@ -4,6 +4,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HandleiFrame 
 {
@@ -31,5 +33,13 @@ public static void main(String[] args) throws InterruptedException
 	
 	dr.findElement(By.xpath("//span[text()='Login/Signup with mobile number and password']")).click();
 	
+		/*
+		 * WebDriverWait wait= new WebDriverWait(dr, 20);
+		 * wait.until(ExpectedConditions.visibilityOf(dr.findElement(By.xpath(
+		 * "//a[text()='X']"))));
+		 * 
+		 * 
+		 * dr.findElement(By.xpath("//a[text()='X']")).click();
+		 */
 }
 }
