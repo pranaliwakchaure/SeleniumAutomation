@@ -12,7 +12,7 @@ public class Homepage
 	{
 		this.dr=dr;
 	}
-	
+	//by type variables(like int) to pass arguments
 	By username=By.name("userName");
 	By password=By.name("password");
 	By login=By.name("login");

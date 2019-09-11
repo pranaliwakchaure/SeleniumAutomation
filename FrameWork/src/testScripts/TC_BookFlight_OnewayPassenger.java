@@ -8,21 +8,25 @@ import org.testng.asserts.SoftAssert;
 
 import Configuration.Config;
 import Library.ApllicationLibrary;
+import Pages.Fligthfinder;
 import Pages.Homepage;
 
 public class TC_BookFlight_OnewayPassenger 
 {
+	
+	WebDriver dr=null;
 	@Test
-	public void script()
+	
+	public void login()
 	{
 		
 		ApllicationLibrary lib= new ApllicationLibrary();
-		WebDriver dr=null;
+		
 		
 		SoftAssert as= new SoftAssert();// For validations we used
 		
-		try {
-			//lauch browser
+		
+			//launch browser
 		dr=lib.launchBrowser("Chrome");
 		Assert.assertTrue(dr!=null);
 		
@@ -39,20 +43,21 @@ public class TC_BookFlight_OnewayPassenger
 		//validation -for no same title
 		
 		as.assertTrue(!dr.getTitle().equals(title));
-			
-		}catch(Exception e)
-		{
-			//Call recovery scenario
-			e.printStackTrace();
-			
-			
-		}finally {
-			
-			if(dr!=null)
-				dr.close();
-			as.assertAll();
-			
-		}
+		
+		as.assertAll();		
+
+	}
+	
+	@Test(dependsOnMethods= {"login"})
+	public void bookAflight()
+	{
+		
+		Fligthfinder page2= new Fligthfinder(dr);
+
+		
+		page2.clickOneWay();
+		page2.selectPassangers("2");
+		page2.clickOnContinu();
 	}
 	
 }
